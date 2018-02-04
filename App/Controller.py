@@ -46,14 +46,12 @@ class Controller(QMainWindow, Ui_MainWindow):
         self.loading_label.hide()
         self.setDisabled(False)
 
-
     def addEventsListener(self):
         self.btn_buscar.clicked.connect(self.onSearchTitle)
         self.btn_busqueda_avanzada.clicked.connect(self.onShowViewBA)
         self.btn_siguiente.clicked.connect(self.onNextPage)
         self.btn_anterior.clicked.connect(self.onPreviousPage)
         self.list_libros.itemClicked.connect(self.onDetailsBook)
-
 
     def onDetailsBook(self):
         self.box_detalles.show()
@@ -67,7 +65,6 @@ class Controller(QMainWindow, Ui_MainWindow):
         subproceso = Thread(target=self.loadImageData, args=(self.books[i][7].decode('latin-1'),))
         self.startLoading()
         subproceso.start()
-
 
     def loadImageData(self, url):
         data = None
@@ -84,13 +81,11 @@ class Controller(QMainWindow, Ui_MainWindow):
             self.label_img.setPixmap(pixmap)
         self.stopLoading()
 
-
     def onSearchTitle(self):
         text = self.input_buscar.text()
         if text != '':
             self.box_detalles.hide()
             self.services.filterBooks(titulo=text)
-
 
     def updateSearch(self, books):
         self.books = books
