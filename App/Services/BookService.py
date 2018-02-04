@@ -20,12 +20,13 @@ class BookService:
 
     def __connect(self):
         try:
-            conexion = sqlite3.connect('db.db')
-            conexion.text_factory = bytes
-            self.cursor = conexion.cursor()
+            self.conexion = sqlite3.connect('db.db')
+            self.conexion.text_factory = bytes
+            self.cursor = self.conexion.cursor()
         except Exception as e:
             print(e)
             self.cursor = None
+            self.conexion = None
 
 
     def filterBooks(self, *args, **kwargs):
@@ -69,6 +70,7 @@ class BookService:
                     books = self.cursor.fetchall()
                 except Exception:
                     pass
+                self.conexion.close()
             self.worker.emit(self.signal_loading, books)
 
 
