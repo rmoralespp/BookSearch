@@ -1,0 +1,99 @@
+GET https://api.isbndb.com/book/9780134093413
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060247.403.json
+
+###
+
+GET https://api.isbndb.com/book/9780134093413
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060235.403.json
+
+###
+
+GET https://api.isbndb.com
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060204.403.json
+
+###
+
+GET https://api.isbndb.com
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060200.403.json
+
+###
+
+GET https://api.isbndb.com/stats
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060156.403.json
+
+###
+
+GET https://api.isbndb.com/stats
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060154.403.json
+
+###
+
+GET https://api.isbndb.com/stats
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T060141.403.json
+
+###
+
+GET https://api.isbndb.com/book/9780134093413
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T055941.403.json
+
+###
+
+GET https://api.isbndb.com/book/9780134093413
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T055845.403.json
+
+###
+
+GET https://api.isbndb.com/books
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T055614.403.json
+
+###
+
+GET https://api.isbndb.com/books
+Accept: */*
+Cache-Control: no-cache
+X-API-Key: osolandia2018
+
+<> 2018-01-31T054956.403.json
+
+###
+

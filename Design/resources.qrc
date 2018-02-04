@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/loading.gif</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_advance_search.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_cancel.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_next_page.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_prev.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_search.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_search_avance.png</file>
+    <file>../../../../Users/Lia/PycharmProjects/BookSearch/Design/ico_success.png</file>
+  </qresource>
+</RCC>
