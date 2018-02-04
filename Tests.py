@@ -3,17 +3,17 @@ import sqlite3
 from PyQt4 import QtGui, QtCore
 
 import sys
-from App.Services.BookService import BookDataSource
+from App.Services.BookService import BookService
 from App.Services.PagerService import PagerService
 from App.Controller import Controller
 from App.Controller import ControllerBA
 from PyQt4.QtTest import QTest
 
 class TestsBookDataSource(unittest.TestCase):
-    book_sotore = BookDataSource()
+    book_sotore = BookService()
 
     def testConnect(self):
-        self.book_sotore.connect()
+        self.book_sotore._BookService__connect()
         self.assertNotEqual(self.book_sotore.cursor, None)
         self.assertIsInstance(self.book_sotore.cursor, sqlite3.Cursor)
 
