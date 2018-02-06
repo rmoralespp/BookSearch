@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a43d2864-61f8-4eee-a618-cfa7ee75ee86" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -230,6 +231,11 @@
             <path>
               <item name="BookSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookSearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BookSearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookSearch" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
