@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43d2864-61f8-4eee-a618-cfa7ee75ee86" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/App/Services/BookService.py" afterPath="$PROJECT_DIR$/App/Services/BookService.py" />
-      <change beforePath="$PROJECT_DIR$/Tests.py" afterPath="$PROJECT_DIR$/Tests.py" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +14,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BookSearch$Unittests_in_Tests_py.coverage" NAME="Unittests in Tests.py Coverage Results" MODIFIED="1517767737147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BookSearch$Unittests_in_Tests_py.coverage" NAME="Unittests in Tests.py Coverage Results" MODIFIED="1517955593917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BookSearch$BookDataSource.coverage" NAME="BookDataSource Coverage Results" MODIFIED="1517504941279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/App/Services" />
     <SUITE FILE_PATH="coverage/BookSearch$ListBook.coverage" NAME="ListBook Coverage Results" MODIFIED="1517436463215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Views" />
-    <SUITE FILE_PATH="coverage/BookSearch$Index.coverage" NAME="Index Coverage Results" MODIFIED="1517767645596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BookSearch$Index.coverage" NAME="Index Coverage Results" MODIFIED="1517955617235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BookSearch$BookService.coverage" NAME="BookService Coverage Results" MODIFIED="1517418405989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Services" />
   </component>
   <component name="FileEditorManager">
@@ -68,16 +68,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingletonService.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Services/SingletonService.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CommonService.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Services/CommonService.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,16 +92,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <marker date="1517767638127" expanded="true" signature="2730:2744" ph="SELECT * fro... missing_value" />
                 <marker date="1517767638127" expanded="true" signature="2730:2760" ph="SELECT * fro... BXBooks" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,6 +192,7 @@
         <option value="$PROJECT_DIR$/App/Controller.py" />
         <option value="$PROJECT_DIR$/App/Services/BookService.py" />
         <option value="$PROJECT_DIR$/Tests.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -230,17 +231,6 @@
             <path>
               <item name="BookSearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="BookSearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookSearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookSearch" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -518,7 +508,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in Tests.py">
+  <component name="RunManager" selected="Python.Index">
     <configuration name="BookDataSource" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -619,8 +609,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in Tests.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Index" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Index" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in Tests.py" />
         <item index="2" class="java.lang.String" itemvalue="Python.BookDataSource" />
         <item index="3" class="java.lang.String" itemvalue="Python.ListBook" />
         <item index="4" class="java.lang.String" itemvalue="Python.BookService" />
@@ -644,12 +634,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_Tests_py - 2018.02.04 at 18h 40m 16s.xml">
-      <configuration name="Unittests in Tests.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_Tests_py - 2018.02.04 at 18h 45m 50s.xml">
-      <configuration name="Unittests in Tests.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_Tests_py - 2018.02.04 at 18h 49m 09s.xml">
       <configuration name="Unittests in Tests.py" configurationId="tests" />
     </history-entry>
@@ -672,6 +656,12 @@
       <configuration name="Unittests in Tests.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_Tests_py - 2018.02.04 at 19h 08m 58s.xml">
+      <configuration name="Unittests in Tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Tests_py - 2018.02.06 at 23h 14m 31s.xml">
+      <configuration name="Unittests in Tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_Tests_py - 2018.02.06 at 23h 20m 07s.xml">
       <configuration name="Unittests in Tests.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -978,16 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Services/BookService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -1002,13 +982,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <marker date="1517767638127" expanded="true" signature="2730:2744" ph="SELECT * fro... missing_value" />
             <marker date="1517767638127" expanded="true" signature="2730:2760" ph="SELECT * fro... BXBooks" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
